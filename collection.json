@@ -1,0 +1,13 @@
+{
+  "$schema": "@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "factory": "./dist/ng-add/index",
+      "schema": "./dist/ng-add/schema.json",
+      "description": "A Ngx schematic.",
+      "aliases": [
+        "install"
+      ]
+    }
+  }
+}

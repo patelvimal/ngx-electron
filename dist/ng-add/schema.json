@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "ngx-builder-ng-add",
+    "title": "Ngx Builder ng-add schematic",
+    "type": "object",
+    "properties": {
+        "project": {
+            "type": "string",
+            "description": "The name of the project.",
+            "$default": {
+                "$source": "projectName"
+            }
+        }
+    }
+}
